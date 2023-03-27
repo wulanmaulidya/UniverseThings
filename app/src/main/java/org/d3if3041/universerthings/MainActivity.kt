@@ -1,5 +1,4 @@
 package org.d3if3041.universerthings
-
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
