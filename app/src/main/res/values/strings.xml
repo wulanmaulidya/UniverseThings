@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Universe Things</string>
+    <string name="image_splashscreen">image_splashscreen</string>
+    <string name="universeThings">UniverseThings adalah suatu aplikasi yang menyediakan informasi seputar Tata Surya dengan memasukan nama planet/galaxy/meteor.</string>
+    <string name="inputan">Planet/Galaxy/Meteor</string>
+    <string name="cari">Cari</string>
+    <string name="input_kosong">Inputan tidak boleh kosong!</string>
+    <string name="input_angka">Inputan tidak boleh Angka!</string>
+    <string name="input_karakter">Inputan tidak boleh Karakter!</string>
+    <string name="tidak_diketahui">Planet, Galaxy atau Meteor tidak dikenali!</string>
+    <string name="exit_dialog">Apakah anda yakin ingin keluar?</string>
+    <string name="planet_merkurius">Merkurius</string>
+    <string name="planet_venus">Venus</string>
+    <string name="planet_bumi">Bumi</string>
+    <string name="planet_mars">Mars</string>
+    <string name="planet_jupiter">Jupiter</string>
+    <string name="planet_saturnus">Saturnus</string>
+    <string name="planet_uranus">Uranus</string>
+    <string name="planet_neptunus">Neptunus</string>
+    <string name="andromeda">Andromeda</string>
+    <string name="infor_andromeda">Galaksi ini berisi 1 triliun bintang dan sangatlah jauh</string>
+    <string name="bima_sakti">Bima Sakti</string>
+    <string name="black_eye">Black Eye</string>
+    <string name="smiley">Smiley</string>
+    <string name="ursa_mayor">Ursa Mayor</string>
+    <string name="orionid">Orionid</string>
+    <string name="perseid">Perseid</string>
+    <string name="quadrantid">Quadrantid</string>
+    <string name="infor_quadrantid">Meteor yang asalnya dari konstilasi Bootes</string>
+    <string name="infor_bima">galaksi yang memiliki berbagai benda angkasa di dalamnya dan bergerak dengan sangat teratur</string>
+    <string name="infor_blackeye">Memiliki cincin kabut dan berwarna gelap Cincin kabut tersebut mengelilingi intinya yang cukup terang Galaksi ini seperti sebuah mata sehingga disebut Black Eye</string>
+    <string name="infor_smiley">Galaksi ini memiliki bentuk bak emotikon wajah tersenyum lengkap dengan bibir melengkung serta mata dan hidung</string>
+    <string name="infor_ursamayor">Ursa Mayor sering dikenal oleh nusantara karena terlihat sebagai tujuh bintang terang yang berguna bagi kapal dan juga perahu sebagai patokan saat berlayar di malam hari</string>
+    <string name="infor_orionid">Orionid ini diambil dari tempat bercahaya sebagai titik meteor yang disebut dengan konstelasi orion</string>
+    <string name="infor_perseid">Meteor Perseid ini dapat kita lihat dengan jelas pada belahan bumi bagian utara ketika malam hari di musim panas pada saat itu lagit terlihat cerah</string>
+
+
+</resources>
