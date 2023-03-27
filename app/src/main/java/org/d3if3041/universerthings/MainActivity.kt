@@ -33,9 +33,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         // melakukan pengecekan kalau inputan tidak berupa karakter spesial (sanity check)
-        if (binding.inpPlanet.text!!.contains("[!\"get#$%&'()*+,-./:;\\\\<=>?@\\[\\]^_`{|}~]".toRegex())) {
-            Toast.makeText(this, R.string.input_karakter, Toast.LENGTH_LONG).show()
-        }
+//        if (binding.inpPlanet.text!!.contains("[!\"get#$%&'()*+,-./:;\\\\<=>?@\\[\\]^_`{|}~]".toRegex())) {
+//            Toast.makeText(this, R.string.input_karakter, Toast.LENGTH_LONG).show()
+//        }
 
         // pengecekan ketika mencari planet, meteor atau galaxy
         if (planet.equals("Merkurius", ignoreCase = true)) { // merkurius
