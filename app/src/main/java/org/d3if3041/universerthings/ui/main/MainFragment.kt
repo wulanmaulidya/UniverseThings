@@ -1,14 +1,13 @@
-package org.d3if3041.universerthings
+package org.d3if3041.universerthings.ui.main
 
 import android.os.Bundle
 import android.text.TextUtils
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import android.widget.Toast
-import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
+import org.d3if3041.universerthings.R
 import org.d3if3041.universerthings.databinding.FragmentMainBinding
 
 class MainFragment : Fragment() {
@@ -20,6 +19,7 @@ class MainFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentMainBinding.inflate(layoutInflater, container, false)
+        setHasOptionsMenu(true)
         return binding.root
     }
 
@@ -243,6 +243,19 @@ class MainFragment : Fragment() {
         } else {
             Toast.makeText(context, R.string.tidak_diketahui, Toast.LENGTH_LONG).show()
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        super.onCreateOptionsMenu(menu, inflater)
+        inflater.inflate(R.menu.my_menu, menu)
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == R.id.menu_about) {
+            findNavController().navigate(
+                R.id.action_mainFragment_to_fragmentAbout)
+            return true
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
 
