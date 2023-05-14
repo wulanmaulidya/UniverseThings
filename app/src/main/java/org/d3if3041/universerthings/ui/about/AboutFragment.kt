@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import org.d3if3041.universerthings.databinding.FragmentAboutBinding
 
-class FragmentAbout : Fragment() {
+class AboutFragment : Fragment() {
     private lateinit var binding: FragmentAboutBinding
 
     override fun onCreateView(
