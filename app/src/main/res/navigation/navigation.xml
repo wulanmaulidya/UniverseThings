@@ -13,10 +13,18 @@
         <action
             android:id="@+id/action_mainFragment_to_fragmentAbout"
             app:destination="@id/fragmentAbout" />
+        <action
+            android:id="@+id/action_mainFragment_to_historiFragment"
+            app:destination="@id/historiFragment" />
     </fragment>
     <fragment
         android:id="@+id/fragmentAbout"
         android:name="org.d3if3041.universerthings.ui.about.AboutFragment"
         android:label="@string/tentang_aplikasi"
         tools:layout="@layout/fragment_about"/>
+    <fragment
+        android:id="@+id/historiFragment"
+        android:name="org.d3if3041.universerthings.ui.histori.HistoriFragment"
+        android:label="@string/histori"
+        tools:layout="@layout/fragment_histori"/>
 </navigation>
