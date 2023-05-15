@@ -49,6 +49,8 @@
     <string name="histori">Histori Pencarian</string>
     <string name="hapus_histori">Hapus Histori</string>
     <string name="input_combine">Inputan tidak bisa kombinasi Angka dan Karakter!</string>
+    <string name="aboutapk">UniverseThings merupakan sebuah aplikasi Android untuk memberikan informasi terkait Planet, Galaxy, dan Meteor.\n\nAplikasi ini dibuat untuk kelas Mobpro 1. Temukan kodenya di https://github.com/wulanmaulidya/universeThings\n\nCopyright © 2023 Wulan Maulidya.\nAll rights reserved.</string>
+    <string name="share">Bagikan Aplikasi</string>
 
 
 </resources>
