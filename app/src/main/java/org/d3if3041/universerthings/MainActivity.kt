@@ -6,6 +6,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
+import org.d3if3041.universerthings.R.id.myNavHostFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,10 +16,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        navController = findNavController(R.id.myNavHostFragment)
+        navController = findNavController(myNavHostFragment)
         NavigationUI.setupActionBarWithNavController(this, navController)
     }
-
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp()
     }
