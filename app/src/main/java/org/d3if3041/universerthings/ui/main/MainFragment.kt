@@ -12,7 +12,6 @@ import org.d3if3041.universerthings.R
 import org.d3if3041.universerthings.data.UniverseDb
 import org.d3if3041.universerthings.databinding.FragmentMainBinding
 import org.d3if3041.universerthings.model.HasilUniverse
-import org.d3if3041.universerthings.network.ApiStatus
 
 class MainFragment : Fragment() {
     private lateinit var binding: FragmentMainBinding
