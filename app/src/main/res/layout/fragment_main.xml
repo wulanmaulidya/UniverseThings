@@ -106,6 +106,5 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imgPlanet"
             tools:text="Informasi Planetnya apa" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

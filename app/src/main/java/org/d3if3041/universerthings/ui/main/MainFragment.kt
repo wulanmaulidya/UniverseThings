@@ -12,6 +12,7 @@ import org.d3if3041.universerthings.R
 import org.d3if3041.universerthings.data.UniverseDb
 import org.d3if3041.universerthings.databinding.FragmentMainBinding
 import org.d3if3041.universerthings.model.HasilUniverse
+import org.d3if3041.universerthings.network.ApiStatus
 
 class MainFragment : Fragment() {
     private lateinit var binding: FragmentMainBinding
@@ -35,6 +36,7 @@ class MainFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.btnCari.setOnClickListener { cariPlanet() }
         viewModel.getHasilUniverse().observe(requireActivity()) { showResult(it) }
+
     }
 
     private fun isInputEmpty(input: String): Boolean {
@@ -48,7 +50,6 @@ class MainFragment : Fragment() {
         val regex = Regex("^(?=.*[0-9])(?=.*[a-zA-Z])([a-zA-Z0-9]+)$")
         return regex.matches(input)
     }
-
 
     private fun cariPlanet() {
         // inisialiasi variabel dengan memamggil inputan dari inpPlanet

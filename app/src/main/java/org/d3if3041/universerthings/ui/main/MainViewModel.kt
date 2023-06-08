@@ -1,5 +1,6 @@
 package org.d3if3041.universerthings.ui.main
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -13,8 +14,7 @@ import org.d3if3041.universerthings.model.HasilUniverse
 import org.d3if3041.universerthings.model.cariUniverse
 
 class MainViewModel (private val db: UniverseDao) : ViewModel() {
-    private val hasilUniverse = MutableLiveData<HasilUniverse?>()
-
+    private val hasilUniverse = MutableLiveData<HasilUniverse>()
     fun cariUniverse(planet:String) {
         val dataUniverse = UniverseEntity(
             namaPlanet = planet
@@ -26,6 +26,7 @@ class MainViewModel (private val db: UniverseDao) : ViewModel() {
             }
         }
     }
-    fun getHasilUniverse(): LiveData<HasilUniverse?> = hasilUniverse
+
+    fun getHasilUniverse(): LiveData<HasilUniverse> = hasilUniverse
 
 }
