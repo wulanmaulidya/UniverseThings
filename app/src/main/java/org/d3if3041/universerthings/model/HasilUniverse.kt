@@ -6,3 +6,9 @@ data class HasilUniverse(
     val imgPlanet: Int
 )
 
+data class Universe(
+    val namaPlanet: String,
+    val informasiPlanet: String,
+    val imgPlanet: String
+)
+

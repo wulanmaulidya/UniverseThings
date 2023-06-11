@@ -9,4 +9,9 @@
         android:icon="@drawable/ic_baseline_history_13"
         android:title="@string/histori"
         app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_list"
+        android:icon="@drawable/ic_linear_layout"
+        android:title="@string/app_name"
+        app:showAsAction="ifRoom"/>
 </menu>

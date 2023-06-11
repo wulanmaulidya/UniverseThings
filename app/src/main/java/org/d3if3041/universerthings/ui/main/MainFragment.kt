@@ -96,6 +96,10 @@ class MainFragment : Fragment() {
                 findNavController().navigate(R.id.action_mainFragment_to_historiFragment)
                 return true
             }
+            R.id.menu_list -> {
+                findNavController().navigate(R.id.action_mainFragment_to_listDataFragment)
+                return true
+            }
             R.id.menu_about -> {
                 findNavController().navigate(R.id.action_mainFragment_to_fragmentAbout)
                 return true
