@@ -59,6 +59,7 @@
     <string name="ok">Ok</string>
     <string name="premissionsNotif">Untuk mendapatkan notifikasi, anda harus mengaktifkan izin notifikasi secara manual melalui details aplikasi ini.\n\nAbaikan jika sudah mengizinkan akses notifikasi.</string>
     <string name="action_switch_layout">Ubah Layout</string>
+    <string name="message">%1$s diklik!</string>
 
 
 </resources>

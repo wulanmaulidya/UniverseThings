@@ -2,6 +2,7 @@ package org.d3if3041.universerthings.ui.listdata
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import org.d3if3041.universerthings.R
@@ -27,7 +28,8 @@ class MainAdapter : RecyclerView.Adapter<MainAdapter.ViewHolder>() {
                 .error(R.drawable.ic_baseline_broken_image_24)
                 .into(imageView)
             root.setOnClickListener {
-                // do something
+                val message = root.context.getString(R.string.message, universe.namaPlanet)
+                Toast.makeText(root.context, message, Toast.LENGTH_LONG).show()
             }
         }
     }
