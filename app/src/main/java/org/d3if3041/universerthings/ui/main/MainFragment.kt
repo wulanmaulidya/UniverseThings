@@ -35,6 +35,7 @@ class MainFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.btnCari.setOnClickListener { cariPlanet() }
         viewModel.getHasilUniverse().observe(requireActivity()) { showResult(it) }
+        viewModel.scheduleUpdater(requireActivity().application)
     }
 
     private fun isInputEmpty(input: String): Boolean {
